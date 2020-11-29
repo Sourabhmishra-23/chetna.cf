@@ -1158,3 +1158,11 @@ strong {
   cursor: pointer;
   margin-left: auto;
 }
+.button{
+  display: inline-block;
+  background-color: #4070F4;
+  color: #fff;
+  padding: .75rem 2.5rem;
+  font-weight: 600;
+  border-radius: .5rem;
+}
