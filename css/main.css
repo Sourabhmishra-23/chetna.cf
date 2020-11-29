@@ -1146,7 +1146,7 @@ strong {
   font-weight: 600;
   padding: 1rem;
   border-radius: .5rem;
-  border: 1.5px solid var(--second-color);
+  border: 1.5px solid #0E2431;
   outline: none;
   margin-bottom: var(--mb-4);
 }
