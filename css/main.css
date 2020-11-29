@@ -1143,7 +1143,7 @@ strong {
 .contact__input{
   width: 100%;
   font-size: 0.938rem;
-  font-weight: var(--font-semi);
+  font-weight: 600;
   padding: 1rem;
   border-radius: .5rem;
   border: 1.5px solid var(--second-color);
