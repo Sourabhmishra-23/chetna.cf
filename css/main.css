@@ -1154,7 +1154,7 @@ strong {
   display: block;
   border: none;
   outline: none;
-  font-size: var(--normal-font-size);
+  font-size: 0.938rem;
   cursor: pointer;
   margin-left: auto;
 }
