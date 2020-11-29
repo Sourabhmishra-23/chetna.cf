@@ -1148,7 +1148,7 @@ strong {
   border-radius: .5rem;
   border: 1.5px solid #0E2431;
   outline: none;
-  margin-bottom: var(--mb-4);
+  margin-bottom: 2rem;
 }
 .contact__button{
   display: block;
