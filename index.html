@@ -48,6 +48,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="/css/main.css" hreflang="en-us" />
+    <script type="text/javascript">
+        if (window.self === window.top) {
+            var antiClickjack = document.getElementById("antiClickjack");
+            antiClickjack.parentNode.removeChild(antiClickjack);
+        }
+        else {
+            top.location = self.location;
+        }
+    </script>
     
   </head>
 
@@ -332,15 +341,7 @@
 
 <script 
 src="https://cdn.jsdelivr.net/npm/sweetalert2@10.10.4/dist/sweetalert2.all.min.js"></script>
-<script type="text/javascript">
-        if (window.self === window.top) {
-            var antiClickjack = document.getElementById("antiClickjack");
-            antiClickjack.parentNode.removeChild(antiClickjack);
-        }
-        else {
-            top.location = self.location;
-        }
-    </script>
+
 
 
   </body>
