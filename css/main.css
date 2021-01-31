@@ -1140,24 +1140,22 @@ strong {
   transform: translateY(-5px);
 }
 
-.contact__input{
-  width: 100%;
-  font-size: 0.938rem;
-  font-weight: 600;
-  padding: 1rem;
-  border-radius: .5rem;
-  border: 1.5px solid #0E2431;
-  outline: none;
-  margin-bottom: 2rem;
-}
-.contact__button{
-  display: block;
-  border: none;
-  outline: none;
-  font-size: 0.938rem;
-  cursor: pointer;
-  margin-left: auto;
-}
+form {
+   max-width: 600px;
+   text-align: center;
+   margin: 20px auto;
+  
+  input, textarea {
+     border:0; outline:0;
+     padding: 1em;
+     @include border-radius(8px);
+     display: block;
+     width: 100%;
+     margin-top: 1em;
+     font-family: 'Merriweather', sans-serif;
+     @include box-shadow(0 1px 1px rgba(black, 0.1));
+     resize: none;
+    
 .button{
   display: inline-block;
   background-color: #4070F4;
