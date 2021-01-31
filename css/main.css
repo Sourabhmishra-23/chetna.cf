@@ -1140,7 +1140,7 @@ strong {
   transform: translateY(-5px);
 }
 
-form {
+.form {
    max-width: 600px;
    text-align: center;
    margin: 20px auto;
@@ -1156,17 +1156,17 @@ form {
      @include box-shadow(0 1px 1px rgba(black, 0.1));
      resize: none;
 }
-form input:focus, form textarea:focus {
+.form input:focus, form textarea:focus {
   -moz-box-shadow: 0 0px 2px #e74c3c !important;
   -webkit-box-shadow: 0 0px 2px #e74c3c !important;
   box-shadow: 0 0px 2px #e74c3c !important;
 }
-form #input-submit {
+.form #input-submit {
   color: white;
   background: #e74c3c;
   cursor: pointer;
 }
-form #input-submit:hover {
+.form #input-submit:hover {
   -moz-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   -webkit-box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
   box-shadow: 0 1px 1px 1px rgba(170, 170, 170, 0.6);
