@@ -1,0 +1,19 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "Chetna Dixit | Web Developer",
+  "short_name": "Chetna Dixit ",
+  "scope": "/",
+  "display": "browser",
+  "start_url": "https://chetna.cf/",
+  "background_color": "#000000",
+  "theme_color": "transparent",
+  "description": "Chetna Dixit is a Frontend Web Developer & Content Creator focused on building beautiful interfaces & experience.",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [],
+  "url": "https://chetna.cf",
+  "generated": true,
+  "screenshots": []
+}
