@@ -4,4 +4,7 @@ setTimeout(function(){waveOnLoad()},1000);hand.addEventListener('mouseover',func
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
-swal("Email Us @ chetnadixitt@gmail.com,");
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', function() {
+    navigator.serviceWorker.register('<add-path-here>/pwabuilder-sw.js');
+  });
