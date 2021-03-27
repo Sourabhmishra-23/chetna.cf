@@ -1,25 +1,26 @@
 {
-  "dir": "ltr",
-  "lang": "en",
-  "name": "Chetna Dixit | Web Developer",
-  "short_name": "Chetna Dixit ",
-  "scope": "/",
-  "display": "browser",
-  "start_url": "https://chetna.cf/",
-  "background_color": "#000000",
-  "theme_color": "transparent",
-  "description": "Chetna Dixit is a Frontend Web Developer & Content Creator focused on building beautiful interfaces & experience.",
-  "orientation": "any",
-  "related_applications": [],
-  "prefer_related_applications": "false",
-  "icons": [
-    {
-      "src": "icon/ck.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ],
-  "url": "https://chetna.cf",
-  "generated": true,
-  "screenshots": []
+	"author": "Chetna Dixit",
+	"name": "Chetna Dixit",
+	"short_name": "Chetna",
+	"description": "Guide of Python Android Website Mobile Development | Online Video Tutorials | SuperCoders - SuperCoders",
+	"orientation": "portrait",
+	"start_url": "/",
+	"scope": "/",
+	"display": "standalone",
+	"background_color": "grey",
+	"theme_color": "#238ee0",
+	"icons": [
+		{
+			"src": "/s_logo2.png",
+			"sizes": "48x48 72x72 96x96 128x128 192x192 256x256 512x512",
+			"type": "image/png"
+		}
+	],
+	"manifest_version": 2,
+	"version": "0.1",
+	"applications": {
+		"gecko": {
+			"id": "supercoders.tech@gmail.com"
+		}
+	}
 }
