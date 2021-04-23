@@ -277,7 +277,7 @@
 <!-- or simply install locally: <script src="HtmlSanitizer.js"></script> -->
 
 <script>
-    var html = HtmlSanitizer.SanitizeHtml("<div> <script> Alert('xss!'); </sc" + "ript> </div>");
+    var html = HtmlSanitizer.SanitizeHtml("<div> <script> alert('xss!'); </sc" + "ript> </div>");
     //html == "<div>  </div>";
 </script>
   </body>
