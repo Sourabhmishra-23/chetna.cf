@@ -4,3 +4,8 @@ setTimeout(function(){waveOnLoad()},1000);hand.addEventListener('mouseover',func
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+emotes: { enabled: true, //Enables Emote widget on the page hideRecommendedArticles: false, //Hides Article recommendations on Emote selection size:
+undefined, // icons size firstImg: undefined, // Set here the image URL to the desired emoji or image firstName: 'Happy', //Change the name of the
+Emote secondImg: undefined, secondName: 'Unmoved', thirdImg: undefined, thirdName: 'Amused', fourthImg: undefined, fourthName: 'Excited', fifthImg:
+'https://upload.wikimedia.org/wikipedia/commons/1/10/Linea_5.png', fifthName: 'Angry', sixthImg: undefined, sixthName: 'Sad', disable: [], //You can
+disable some emotes (Emotes id's 1,2,3,4,5,6) customText: {}, },
